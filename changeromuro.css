@@ -134,7 +134,20 @@ div .card-bodis{
             border-right: 5px solid #007bff;
             padding: 10px 5px;
         }
+
         
+       
+        .carousel {
+         position: relative;
+        height: 250px;
+            }
+            .carousel-item img{
+            height: 250px;
+            overflow: hidden;
+            
+            object-fit: cover;
+            -o-object-fit: cover;
+            }
         .profile-img {
            
             transform: translate(0%,0%);
@@ -144,7 +157,22 @@ div .card-bodis{
             height: 60px;
             border-radius: 100%;
             overflow: hidden;
-            opacity: 0.9;
+           
+            object-fit: cover;
+            -o-object-fit: cover;
+        }
+         .avatar-profile1 img {
+             width: 90px;
+            height: 90px;
+           padding: 3px;
+           background: #fff;
+           
+            border: 3px solid #6964f0;
+             border-left: 3px solid #17a2b8;
+            border-right: 3px solid #007bff;
+            border-radius: 100%;
+            overflow: hidden;
+           
             object-fit: cover;
             -o-object-fit: cover;
         }
@@ -183,6 +211,21 @@ div .card-bodis{
             border-radius: 100%;
             overflow: hidden;
             opacity: 0.9;
+            object-fit: cover;
+            -o-object-fit: cover;
+
+        }
+         .avatar-profile1 img {
+             width: 90px;
+            height: 90px;
+           padding: 3px;
+           background: #fff;
+            border: 3px solid #6964f0;
+             border-left: 3px solid #17a2b8;
+            border-right: 3px solid #007bff;
+            border-radius: 100%;
+            overflow: hidden;
+           
             object-fit: cover;
             -o-object-fit: cover;
         }
