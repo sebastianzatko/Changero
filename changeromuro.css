@@ -135,11 +135,11 @@ div .card-bodis{
             padding: 10px 5px;
         }
         
-        .profile-img1 {
+        .profile-img {
            
             transform: translate(0%,0%);
         }
-        .avatar-profile1 img {
+        .avatar-profile img {
             width: 60px;
             height: 60px;
             border-radius: 100%;
